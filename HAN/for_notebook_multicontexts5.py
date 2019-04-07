@@ -1,3 +1,5 @@
+# This file is composed mainly by Antoine Tixier. I made changes on several details. 
+
 import sys
 import os
 import json
@@ -108,7 +110,7 @@ pad_vec = np.random.normal(size=word_vecs.shape[1])
 word_vecs = np.insert(word_vecs,0,pad_vec,0)
 
 
-
+# The metrics to record the original loss and the regularization loss separately. 
 def custom_metrics_wrapper_pure_loss(my_tensors):
     def custom_metrics_pure_loss(y_true, y_pred):
         return K.categorical_crossentropy(y_true, y_pred) # We don't need to sum or average across different samples my ourselves. Keras does that for us. 
@@ -391,6 +393,7 @@ with open(path_to_save + 'han_hist_normal.json', 'w') as file:
 #K.clear_session()
 #print('keras session cleared')
 
+# To record the key parameters of the experiment
 with open(path_to_save + 'time_log.txt', 'w') as f:
     f.write('my_lambda: ' + str(my_lambda) + '\n')
     f.write('total training time: ' + str(end_time-start_time) + '\n')
