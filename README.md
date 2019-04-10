@@ -1,14 +1,15 @@
 # Brief summary of experiment of multi-context HAN
+
 #### Multi-context number = 10:
 <img src="https://github.com/WenjianDong/deep_learning_NLP/blob/master/lm01_new.png" alt="" width="400"/>
 <img src="https://github.com/WenjianDong/deep_learning_NLP/blob/master/lm02_new.png" alt="" width="400"/>
 <img src="https://github.com/WenjianDong/deep_learning_NLP/blob/master/lm10_new.png" alt="" width="400"/>
 Compared to what I drew for the defence, the loss these figures is direct loss without summing along samples in a batch. It demonstrates the same phenomenon as the one during the defence: the when lambda is 0.1 or 0.2 the regularization term doesn't influence much on the results, but when lambda is as large as 1.0, the result is not stable. 
-<br>
-#### Multi-context number = 3
-In addition, I did an experiment with multi-context number is 3 and lambda=0.2. The final accuracy is about 63.0%.
-<img src="https://github.com/WenjianDong/deep_learning_NLP/blob/master/multi3-lm02.png" alt="" width="550"/>
 
+#### Multi-context-number = 3
+In addition, I did an experiment with multi-context number is 3 and lambda=0.2. The final accuracy is about 63.0%. 
+<img src="https://github.com/WenjianDong/deep_learning_NLP/blob/master/multi3-lm02.png" alt="" width="550"/>
+This accuracy (on validation set) is slightly lower than the original accuracy presented at https://github.com/Tixierae/deep_learning_NLP/blob/master/HAN/HAN_final.ipynb (about 0.3% lower), and slightly higher than the result with multi-context-number = 10 (about 0.3% higher). 
 
 -------------------------------- The original README -------------------------------
 
