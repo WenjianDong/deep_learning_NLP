@@ -1,3 +1,12 @@
+# Brief summary of experiment of multi-context HAN
+
+<img src="https://github.com/WenjianDong/deep_learning_NLP/blob/master/lm10_new.png" alt="" width="550"/>
+
+
+
+
+
+
 # Deep Learning architectures for NLP
 
 This repository contains Keras implementations of the architectures listed below. For a quick theoretical intro about Deep Learning for NLP, I encourage you to have a look at my [notes](https://arxiv.org/pdf/1808.09772.pdf).
