@@ -1,6 +1,6 @@
 # Brief summary of experiment of multi-context HAN
 
-#### Multi-context number = 10:
+#### Multi-context-number = 10:
 <img src="https://github.com/WenjianDong/deep_learning_NLP/blob/master/lm01_new.png" alt="" width="400"/>
 <img src="https://github.com/WenjianDong/deep_learning_NLP/blob/master/lm02_new.png" alt="" width="400"/>
 <img src="https://github.com/WenjianDong/deep_learning_NLP/blob/master/lm10_new.png" alt="" width="400"/>
@@ -9,7 +9,7 @@ Compared to what I drew for the defence, the loss these figures is direct loss w
 #### Multi-context-number = 3
 In addition, I did an experiment with multi-context number is 3 and lambda=0.2. The final accuracy is about 63.0%. 
 <img src="https://github.com/WenjianDong/deep_learning_NLP/blob/master/multi3-lm02.png" alt="" width="550"/>
-This accuracy (on validation set) is slightly lower than the original accuracy presented at https://github.com/Tixierae/deep_learning_NLP/blob/master/HAN/HAN_final.ipynb (about 0.3% lower), and slightly higher than the result with multi-context-number = 10 (about 0.3% higher). 
+<br>This accuracy (on validation set) is slightly lower than the original accuracy presented at https://github.com/Tixierae/deep_learning_NLP/blob/master/HAN/HAN_final.ipynb (about 0.3% lower), and slightly higher than the result with multi-context-number = 10 (about 0.3% higher). 
 
 -------------------------------- The original README -------------------------------
 
